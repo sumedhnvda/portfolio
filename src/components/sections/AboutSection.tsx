@@ -1,6 +1,7 @@
 import { Terminal, Lightbulb, Trophy, GraduationCap, Briefcase } from 'lucide-react';
 import { Container } from '../ui/Container';
 import { Card } from '../ui/Card';
+import { Scard } from '../ui/Scard';
 import { useModal } from '../../hooks/useModal';
 import { Modal } from '../ui/Modal';
 import { Tag } from '../ui/Tag';
@@ -17,7 +18,7 @@ export const AboutSection = () => {
   return (
     <Container>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <Card
+        <Scard
           icon={Terminal}
           iconColor="text-emerald-500"
           title="About Me"
@@ -28,9 +29,9 @@ export const AboutSection = () => {
             Since my first year of BE in CS, I have been diving deep into the world of ML, constantly exploring new algorithms and models.
             My journey has been focused on building real-world applications, and I am dedicated to solve complex problems across various domains of AI.
           </p>
-        </Card>
+        </Scard>
 
-        <Card
+        <Scard
           icon={Lightbulb}
           iconColor="text-blue-500"
           title="Areas of Interest"
@@ -40,7 +41,7 @@ export const AboutSection = () => {
               <Tag key={interest}>{interest}</Tag>
             ))}
           </div>
-        </Card>
+        </Scard>
 
         <Card
           icon={Briefcase}
