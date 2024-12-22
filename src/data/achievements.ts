@@ -18,7 +18,7 @@ export const achievements: Achievement[] = [
   },
   {
     id: '3',
-    title: '2rd place in the Technical Project Ideation competition ',
+    title: '2nd place in the Technical Project Ideation competition ',
     date: 'June 2024',
     description: 'Built DhronamAI which is your guru and friend during exams, helping you to understand PDFs, images, and YouTube videos in a faster way to enhance your learning curve when time is limited.',
     link:"https://www.linkedin.com/posts/sumedhnavuda_excited-to-share-some-fantastic-news-activity-7207210939614396416-oSDD/" 
