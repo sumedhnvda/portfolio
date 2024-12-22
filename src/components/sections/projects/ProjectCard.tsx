@@ -24,7 +24,7 @@ export const ProjectCard = forwardRef<HTMLDivElement, ProjectCardProps>(
         <motion.img
           src={project.image}
           alt={project.title}
-          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105;"
         />
       </div>
       <div className="p-4">

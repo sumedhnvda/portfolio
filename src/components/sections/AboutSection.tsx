@@ -82,7 +82,7 @@ export const AboutSection = () => {
           onClick={achievementsModal.open}
         >
           <div className="space-y-3">
-            {achievements.slice(0, 2).map((achievement) => (
+            {achievements.slice(-2).reverse().map((achievement) => (
               <div key={achievement.id}>
                 <h3 className="text-zinc-200">{achievement.title}</h3>
                 <p className="text-zinc-400 text-sm">{achievement.date}</p>
@@ -162,7 +162,7 @@ export const AboutSection = () => {
         title="Achievements & Recognition"
       >
         <div className="space-y-6">
-          {achievements.map((achievement) => (
+          {achievements.slice().reverse().map((achievement) => (
             <div key={achievement.id} className="border-b border-zinc-800 pb-6 last:border-0">
               <div className="flex justify-between items-start mb-2">
                 <h3 className="text-xl font-bold text-white">{achievement.title}</h3>

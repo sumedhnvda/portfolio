@@ -2,15 +2,15 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  image: string;
+  image: any;
   technologies: string[];
-  category: 'all' | 'ML&DL' | 'NLP' | 'GenAI/LLMs' | 'CV' | 'QuantumML' | 'others';
+  category: 'all' | 'ML&DL' | 'NLP' | 'GenAI/LLMs' | 'CV' | 'QuantumML';
   demoUrl?: string;
   githubUrl?: string;
   details: string;
 }
 
-export type Category = 'all' | 'ML&DL' | 'NLP' | 'GenAI/LLMs' | 'CV' | 'QuantumML' | 'others';
+export type Category = 'all' | 'ML&DL' | 'NLP' | 'GenAI/LLMs' | 'CV' | 'QuantumML';
 
 export interface WorkExperience {
   id: string;
