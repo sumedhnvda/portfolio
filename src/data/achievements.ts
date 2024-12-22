@@ -24,11 +24,11 @@ export const achievements: Achievement[] = [
     link:"https://www.linkedin.com/posts/sumedhnavuda_excited-to-share-some-fantastic-news-activity-7207210939614396416-oSDD/" 
   },
   {
-    "id": "4",
-    "title": "Best Paper award at International Student Symposium under CISC Theme",
-    "date": "December 2024",
-    "description": "Presented 'Cloud Code,' showcasing innovative ideas on cloud-based solutions for scalable and efficient software development.",
-    "link": "https://www.linkedin.com/posts/sumedhnavuda_github-sumedhnvdacloudcodeeditor-activity-7276410865417863168-Cd5U/"
+    id: "4",
+    title: "Best Paper award at International Student Symposium under CISC Theme",
+    date: "December 2024",
+    description: "Presented 'Cloud Code,' showcasing innovative ideas on cloud-based solutions for scalable and efficient software development.",
+    link: "https://www.linkedin.com/posts/sumedhnavuda_github-sumedhnvdacloudcodeeditor-activity-7276410865417863168-Cd5U/"
 },
 
 

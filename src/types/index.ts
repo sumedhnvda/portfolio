@@ -38,3 +38,23 @@ export interface Education {
   gpa: string;
   relevantCourses: string[];
 }
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  date: string;
+  description: string;
+  url: string;
+  readTime: string;
+  tags: string[];
+}
+
+export interface Publication {
+  id: string;
+  title: string;
+  conference: string;
+  date: string;
+  description: string;
+  url: string;
+  coAuthors: string[];
+}

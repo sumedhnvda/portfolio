@@ -9,6 +9,7 @@ import { interests } from '../../data/interests';
 import { workExperience } from '../../data/workExperience';
 import { achievements } from '../../data/achievements';
 import { education } from '../../data/education';
+import { BlogsCard } from '../ui/BlogsCard';
 
 export const AboutSection = () => {
   const workModal = useModal();
@@ -183,6 +184,7 @@ export const AboutSection = () => {
           ))}
         </div>
       </Modal>
+      <Container><BlogsCard/></Container>
     </Container>
   );
 };
