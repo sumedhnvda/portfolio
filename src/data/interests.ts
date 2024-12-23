@@ -5,5 +5,4 @@ export const interests = [
   'CV',
   'Gen AI/LLMs',
   'MLops',
-  'Quantum ML',
 ];
