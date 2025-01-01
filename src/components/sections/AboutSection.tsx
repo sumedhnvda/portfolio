@@ -184,7 +184,7 @@ export const AboutSection = () => {
           ))}
         </div>
       </Modal>
-      <Container><BlogsCard/></Container>
+      {/*<Container><BlogsCard/></Container>*/}
     </Container>
   );
 };
