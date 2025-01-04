@@ -9,24 +9,19 @@ export const SkillsMarquee = () => {
         <div className="overflow-hidden -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-12">
           <motion.div
             className="flex"
-            animate={{
-              x: ["0%", "-100%"]
-            }}
+            animate={{ x: ["0%", "-150%"] }}
             transition={{
-              x: {
-                duration: 30,
-                repeat: Infinity,
-                ease: "linear"
-              }
+              x: { duration: 20, repeat: Infinity, ease: "linear" },
             }}
           >
-            {/* Duplicate content for seamless loop */}
-            <div className="flex flex-shrink-0">
-              <MarqueeContent />
-            </div>
-            <div className="flex flex-shrink-0">
-              <MarqueeContent />
-            </div>
+            {/* Generate multiple marquee contents dynamically */}
+            {Array(2)
+              .fill(null)
+              .map((_, index) => (
+                <div className="flex flex-shrink-0" key={index}>
+                  <MarqueeContent />
+                </div>
+              ))}
           </motion.div>
         </div>
       </Container>
