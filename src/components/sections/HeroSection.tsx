@@ -7,7 +7,7 @@ const socialLinks = [
   { icon: Github, href: 'https://github.com/sumedhnvda', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com/in/sumedhnavuda', label: 'LinkedIn' },
   { icon: Twitter, href: 'https://x.com/sumedhnavuda', label: 'X' },
-  { icon: Download, href: '', label: 'Resume' },
+  { icon: Download, href: 'https://drive.google.com/file/d/1p6rfVlEOkFjqtYqvWFdi5jYt8DhXG9iz/view', label: 'Resume' },
   { icon: Mail, href: 'mailto:sumedhnavuda@outlook.com', label: 'Email' }
 ];
 

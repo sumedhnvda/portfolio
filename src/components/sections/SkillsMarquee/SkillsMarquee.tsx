@@ -9,7 +9,7 @@ export const SkillsMarquee = () => {
         <div className="overflow-hidden -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-12">
           <motion.div
             className="flex"
-            animate={{ x: ["0%", "-150%"] }}
+            animate={{ x: ["0%", "-149%"] }}
             transition={{
               x: { duration: 20, repeat: Infinity, ease: "linear" },
             }}
