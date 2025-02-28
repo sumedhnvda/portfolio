@@ -44,7 +44,7 @@ export const AboutSection = () => {
           </div>
         </Scard>
 
-        {/*<Card
+        <Card
           icon={Briefcase}
           iconColor="text-purple-500"
           title="Work Experience"
@@ -58,7 +58,7 @@ export const AboutSection = () => {
               </div>
             ))}
           </div>
-        </Card>*/}
+        </Card>
 
         <Card
           icon={GraduationCap}
