@@ -1,37 +1,53 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="keywords"
-    content="Sumedh Navuda, Sumedh Portfolio, AI Developer,Software Engineer, Coding Projects"/>
-  <meta name="author" content="Sumedh Navuda" />
-  <meta property="og:title" content="Sumedh Navuda" />
-  <meta
-    property="og:description"
-    content="Explore Sumedh Navuda's portfolio showcasing technical expertise."
-  />
-  <title>Portfolio</title>
-  <link rel="icon" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/s.svg" type="image/svg+xml">
-  <style>
-    #loading-screen {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: #000; 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff; 
-      font-family: Arial, sans-serif;
-      font-size: 1.5rem;
-      z-index: 9999; 
-    }
-    .fade-out {
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.5s ease, visibility 0.5s ease;
-    }
-  </style>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Sumedh Navuda, Sumedh Portfolio, AI Developer,Software Engineer, Coding Projects"/>
+    <meta name="author" content="Sumedh Navuda" />
+    <meta property="og:title" content="Sumedh Navuda" />
+    <meta
+      property="og:description"
+      content="Explore Sumedh Navuda's portfolio showcasing technical expertise."
+    />
+    <title>Portfolio</title>
+    <link rel="icon" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/svgs/solid/s.svg" type="image/svg+xml">
+    <style>
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff; 
+        font-family: Arial, sans-serif;
+        font-size: 1.5rem;
+        z-index: 9999; 
+      }
+      .fade-out {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading-screen">Loading...</div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      window.addEventListener("load", () => {
+        const loadingScreen = document.getElementById("loading-screen");
+        if (loadingScreen) {
+          loadingScreen.classList.add("fade-out");
+          setTimeout(() => loadingScreen.remove(), 500);
+        }
+      });
+    </script>
+  </body>
+</html>
