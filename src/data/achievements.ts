@@ -3,7 +3,7 @@ import { Achievement } from '../types';
 export const achievements: Achievement[] = [
   {
     id: '1',
-    title: 'Won Mini Project Compition',
+    title: 'Won Mini Project competition',
     date: 'July 2023',
     description: 'Built a Face Detecting Software  Armed with OpenCV, we clicked 500 B&W pics using the laptop cam then run LBPH (Local Binary Pattern Histograms) algorithm on that image It breaks down each faces texture into patterns, creating histograms that are like unique face fingerprints. When a new face appears, our system calculates its pattern and compares it to these fingerprints',
     link:"https://www.linkedin.com/posts/sumedhnavuda_facerecognition-collegecompetition-activity-7141106854394220544-OiMc/" 

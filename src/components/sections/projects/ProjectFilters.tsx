@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion';
 import type { Category } from '../../../types';
 const categories: { value: Category; label: string }[] = [
-  { value: 'all', label: 'All Projects' },
+  { value: 'all', label: 'ALL Projects' },
+  { value: 'ML&DL', label: 'ML&DL' },
   { value: 'GenAI/LLMs', label: 'GenAI/LLMs' },
+  { value:'Research_Paper_Implementation', label:'Research Paper Implementation'},
   { value: 'CV' , label: 'CV'  },
+
 ];
 
 interface ProjectFiltersProps {

@@ -4,13 +4,13 @@ export interface Project {
   description: string;
   image: any;
   technologies: string[];
-  category: 'all' | 'ML&DL' | 'NLP' | 'GenAI/LLMs' | 'CV' ;
+  category: 'all' | 'ML&DL' | 'GenAI/LLMs' | 'CV' | 'Research_Paper_Implementation';
   demoUrl?: string;
   githubUrl?: string;
   details: string;
 }
 
-export type Category = 'all' | 'ML&DL' | 'NLP' | 'GenAI/LLMs' | 'CV' ;
+export type Category = 'all' | 'ML&DL' | 'GenAI/LLMs' | 'CV' | 'Research_Paper_Implementation';
 
 export interface WorkExperience {
   id: string;
