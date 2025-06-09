@@ -1,6 +1,6 @@
 import { Project } from '../types';
 import project2 from "../public/project2.png"
-import project1 from "../public/project1.jpeg"
+import project1 from "../public/project1.png"
 export const projects: Project[] = [{
     id: '2',
     title: 'Cloud Code Editor',

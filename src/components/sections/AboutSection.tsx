@@ -26,10 +26,7 @@ export const AboutSection = () => {
           className="md:col-span-2"
         >
           <p className="text-zinc-400">
-            Hey there! 👋 I am a Computer Science Engineer with a strong passion for machine learning. 
-            Since my first year of BE in CS, I have been diving deep into the world of ML, constantly exploring new algorithms and models.
-            My journey has been focused on building real-world applications, and I am dedicated to solve complex problems across various domains of AI.
-          </p>
+I am a Computer Science Engineer with a deep passion for Natural Language Processing (NLP), which I actively study and explore through various projects and research. While I occasionally take on tasks in Computer Vision, my core focus lies in fine-tuning large language models (LLMs), building AI agents, and developing generative AI solutions.</p>
         </Scard>
 
         <Scard
@@ -184,7 +181,7 @@ export const AboutSection = () => {
           ))}
         </div>
       </Modal>
-      {/*<Container><BlogsCard/></Container>*/}
+      <Container><BlogsCard/></Container>
     </Container>
   );
 };
