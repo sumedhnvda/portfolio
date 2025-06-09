@@ -8,14 +8,19 @@ export const SkillsMarquee = () => {
       <Container className="relative z-20">
         <div className="overflow-hidden -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-12">
           <motion.div
-            className="flex"
-            animate={{ x: ["0%", "-149%"] }}
+            className="flex gap-4"
+            animate={{ x: ["0%", "-50%"] }}
             transition={{
-              x: { duration: 20, repeat: Infinity, ease: "linear" },
+              x: {
+                duration: 25,
+                repeat: Infinity,
+                ease: "linear",
+                repeatType: "loop",
+              },
             }}
           >
-            {/* Generate multiple marquee contents dynamically */}
-            {Array(2)
+            {/* Using 4 instances to ensure smooth infinite loop */}
+            {Array(4)
               .fill(null)
               .map((_, index) => (
                 <div className="flex flex-shrink-0" key={index}>
