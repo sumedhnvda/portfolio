@@ -20,6 +20,7 @@ export const blogs: BlogPost[] = [
   "readTime": "3 min read",
   "tags": ["Python", "Pydantic", "FastAPI", "Cheat Sheet", "Validation"]
 },
+
 {
   "id": "3",
   "title": "FastAPI Essentials: A Quick Cheat Sheet",
