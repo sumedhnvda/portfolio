@@ -19,7 +19,7 @@ export const blogs: BlogPost[] = [
   "url": "https://sumedhnavuda.medium.com/pydantic-essentials-62a6eacdc80c",
   "readTime": "3 min read",
   "tags": ["Python", "Pydantic", "FastAPI", "Cheat Sheet", "Validation"]
-}
+},
 {
   "id": "3",
   "title": "FastAPI Essentials: A Quick Cheat Sheet",
@@ -28,7 +28,7 @@ export const blogs: BlogPost[] = [
   "url": "https://sumedhnavuda.medium.com/fastapi-essentials-b49a9de8ac2c",
   "readTime": "3 min read",
   "tags": ["Python", "FastAPI", "API", "Cheat Sheet", "Web Development"]
-}
+},
 ];
 
 
