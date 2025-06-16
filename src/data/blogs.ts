@@ -12,7 +12,7 @@ export const blogs: BlogPost[] = [
 },
 
 {
-  "id": ""2,
+  "id": "2",
   "title": "Pydantic Essentials: A Quick Cheat Sheet",
   "date": "16-06-2025",
   "description": "A concise Pydantic cheat sheet covering common field types, validation, and model configuration. Perfect for FastAPI developers and Pythonistas seeking quick reference.",
