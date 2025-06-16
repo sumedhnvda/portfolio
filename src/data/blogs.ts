@@ -12,7 +12,7 @@ export const blogs: BlogPost[] = [
 },
 
 {
-  "id": "3",
+  "id": ""2,
   "title": "Pydantic Essentials: A Quick Cheat Sheet",
   "date": "16-06-2025",
   "description": "A concise Pydantic cheat sheet covering common field types, validation, and model configuration. Perfect for FastAPI developers and Pythonistas seeking quick reference.",
@@ -20,8 +20,17 @@ export const blogs: BlogPost[] = [
   "readTime": "3 min read",
   "tags": ["Python", "Pydantic", "FastAPI", "Cheat Sheet", "Validation"]
 }
-
+{
+  "id": "3",
+  "title": "FastAPI Essentials: A Quick Cheat Sheet",
+  "date": "16-06-2025",
+  "description": "A concise FastAPI cheat sheet covering routing, query/path parameters, validation, and response handling. Ideal for Python developers building modern APIs.",
+  "url": "https://sumedhnavuda.medium.com/fastapi-essentials-b49a9de8ac2c",
+  "readTime": "3 min read",
+  "tags": ["Python", "FastAPI", "API", "Cheat Sheet", "Web Development"]
+}
 ];
+
 
 
 
