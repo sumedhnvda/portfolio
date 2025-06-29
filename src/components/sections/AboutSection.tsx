@@ -48,7 +48,7 @@ I am a Computer Science Engineer with a deep passion for Natural Language Proces
           onClick={workModal.open}
         >
           <div className="space-y-3">
-            {workExperience.slice(0, 2).map((job) => (
+            {workExperience.slice(0,2).reverse().map((job) => (
               <div key={job.id}>
                 <h3 className="text-zinc-200">{job.role}</h3>
                 <p className="text-zinc-400 text-sm">{job.company}</p>
@@ -64,7 +64,7 @@ I am a Computer Science Engineer with a deep passion for Natural Language Proces
           onClick={educationModal.open}
         >
           <div className="space-y-3">
-            {education.slice(0, 2).map((edu) => (
+            {education.slice(0,2).reverse().map((edu) => (
               <div key={edu.id}>
                 <h3 className="text-zinc-200">{edu.degree}</h3>
                 <p className="text-zinc-400 text-sm">{edu.institution}</p>
@@ -96,7 +96,7 @@ I am a Computer Science Engineer with a deep passion for Natural Language Proces
         title="Work Experience"
       >
         <div className="space-y-8">
-          {workExperience.map((job) => (
+          {workExperience.slice().reverse().map((job) => (
             <div key={job.id} className="border-b border-zinc-800 pb-6 last:border-0">
               <div className="mb-4">
                 <h3 className="text-xl font-bold text-white">{job.role}</h3>
@@ -131,7 +131,7 @@ I am a Computer Science Engineer with a deep passion for Natural Language Proces
         title="Education"
       >
         <div className="space-y-8">
-          {education.map((edu) => (
+          {education.slice().reverse().map((edu) => (
             <div key={edu.id} className="border-b border-zinc-800 pb-6 last:border-0">
               <div className="mb-4">
                 <h3 className="text-xl font-bold text-white">{edu.degree}</h3>
